@@ -7,7 +7,7 @@ int main(){
 	int matrix_b[4];
 	string index[] = {"[0] [0]", "[0] [1]", "[1] [0]", "[1] [1]"};
 	cout << "Namaku adalah : Your name\nUmurku : old\n";
-	cout << "==============================\nMenampilkan perhitungan matrix\n";
+	cout << "==============================\nMenampilkan perhitungan matrix\n\n";
 
 	// Get value matrix A
 	cout << "Matrix A :\n";
@@ -24,7 +24,7 @@ int main(){
 	}
 
 	// View result
-	cout << "Hasil penjumlahan matrix :\n";
+	cout << "\nHasil penjumlahan matrix :\n";
 	for (int i=0; i<4; i++){
 		cout <<"C "<< index[i]<< " = "<< matrix_a[i]+matrix_b[i]<< "\n";
 	}
